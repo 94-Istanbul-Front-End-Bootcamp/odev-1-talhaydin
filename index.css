@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+}
+
+.upperdiv {
+    text-align: center;
+}
+
+.bottomdiv {
+    margin-top: 40px;
+}
+
+.infoButton {
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+    height: 30px;
+    width: 250px;
+    border: 1px solid white;
+}
+
+a{
+    color: rgb(102, 23, 27);
+    margin: 15px;   
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
