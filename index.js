@@ -11,6 +11,7 @@ let isim_yas_butonu = document.querySelector("#isimYasButon")
 isim_yas_butonu.addEventListener("click", h1h2ekle)
 
 function h1h2ekle(){
+    isim_yas_butonu.remove();
     document.querySelector("#nameSurname").innerHTML= "Talha Aydın"
     document.querySelector("#age").innerHTML= "22"
 }
